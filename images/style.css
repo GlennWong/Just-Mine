@@ -1,0 +1,231 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0;padding:0;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+
+/* default */
+a{text-decoration:none;}
+.center{text-align: center;}
+.tleft{text-align: left;}
+.tright{text-align: right;}
+img{width:100%;height:auto;}
+.left{float: left;}
+.right{float: right;}
+
+.padding-tb{
+	padding: 3% 0;
+}
+.padding-lr{
+	padding: 0 3%;
+}
+.margin-tb{
+	margin: 2% 0;
+}
+.margin-lr{
+	margin: 0 2%;
+}
+/* global */
+body {
+	font-family: "\5FAE\8F6F\96C5\9ED1";
+	font-size: 100%;
+}
+.wrap{
+	margin:0 auto;
+	width:980px;
+}
+#bug1 img {
+	width: 0px;
+}
+/* header */
+.h_bg{
+	background: #2E2E2E;
+	height: 89px;
+}
+.header{
+	padding: 0;
+}
+.logo{
+	float: left;
+	width:275px;
+	height:89px;
+}
+/* telphone */
+.tel {
+	padding: 25px 0;
+	float: right;
+	font-size:10px;
+	color: #F7F7F7;
+}
+/* navigation */
+.n_bg{
+	background: #DEDEDE;
+	border-bottom: #D6D6D6;
+	height: 45px;
+}
+.MenuList{
+	display:block;
+}
+.MenuList li {
+	list-style: none;
+	float:left;
+}
+.MenuList li a {	
+	background: #DEDEDE;
+	color: #403E39;
+	line-height: 1.8em;
+	padding:12px 20px;
+	font-size:10px;
+	font-weight:lighter;
+	text-align:center;
+	text-decoration: none;
+	display: block;
+}
+.MenuList li.active a {
+	color: #F7F7F7;
+	background: #2E2E2E;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#212121', endColorstr='#555555');
+	background: -webkit-gradient(linear, left top, left bottom, from(#555555), to(#212121));
+	background: -moz-linear-gradient(top, #555555, #212121);
+}
+.MenuList li a:hover {
+	color: #F7F7F7;
+	background: #2E2E2E;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#555555', endColorstr='#212121');
+	background: -webkit-gradient(linear, left top, left bottom, from(#555555), to(#212121));
+	background: -moz-linear-gradient(top, #555555, #212121);
+}
+
+/* footer */
+.footer-store {
+	background: #242424;
+	color: #7A8480;
+}
+
+.footer-menu {
+	background: #636B63;
+	color: #FFFFFF;
+	line-height: 50px;
+}
+.footer-cnt {
+	background: #FFFFFF; 
+	color: #999998;
+}
+
+.footer-custom {
+	background: #2E2E2E;
+	color: #C0BCBC;
+}
+/* boaders */
+.indexboader img {
+	-webkit-box-shadow: 3px 3px 3px #474950;
+	-moz-box-shadow: 3px 3px 3px #474950;
+	box-shadow: 3px 3px 3px #474950;
+}
+.indexboader object {
+	-webkit-box-shadow: 3px 3px 3px #474950;
+	-moz-box-shadow: 3px 3px 3px #474950;
+	box-shadow: 3px 3px 3px #474950;	
+}
+
+/* slider */
+.slider_bg{
+	background: #EFEFEF;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #D6D6D6;
+}
+.slider{
+	padding:0; 
+}
+.slide{
+	padding: 4%;
+	background: #FFFFFF;
+	margin: 3% 0;
+	box-shadow: 0px 30px 10px -25px #888888;
+	-moz-box-shadow: 0px 30px 10px -25px #888888;
+	-o-box-shadow: 0px 30px 10px -25px #888888;
+	-webkit-shadow: 0px 30px 10px -25px #888888;
+}
+
+/*sidebar*/
+
+/*main*/
+.main_bg{
+}
+
+.main{
+	padding: 2% 0;
+}
+
+.grid-1-1 {
+	width: 100%;
+}
+.grid-1-2 {
+	width: 49%;
+}
+.grid-1-3 {
+	width: 33.6%;
+}
+.grid-2-3 {
+	width: 64.3%;
+}
+.grid-1-4 {
+	width: 24%;
+}
+.grid-1-5 {
+	width: 18%;
+}
+.grid-2-5 {
+	width: 40%;
+}
+.grid-3-5 {
+	width: 59%;
+}
+.gap {
+	float: left;
+	padding:0 0 0 2%;
+}
+
+/***** Media Quries *****/
+@media only screen and (max-width: 980px) {
+	.wrap{
+		width:95%;
+	}
+}
+@media only screen and (max-width: 980px) {
+	.wrap{
+		width:95%;
+	}
+
+}
+@media only screen and (max-width: 800px) {
+	.wrap{
+		width:95%;
+	}
+}
+@media only screen and (max-width: 640px){
+	.wrap{
+		width:95%;
+	}
+	.logo{
+		width:40%;
+		height: 60px;
+	}
+	.MenuList li a {
+		font-family: "微软雅黑";
+		font-weight:normal;
+		padding: 8px;
+		font-size: 13px;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.wrap{
+		width:95%;
+	}
+	.logo{
+		width:40%;
+		height: 40px;
+	}
+}

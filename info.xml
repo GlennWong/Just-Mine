@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" ?><theme><name>JustMine</name><id>JustMine</id><version>v1.0</version><info> </info><author>legstrong</author><site>zanzhu.net</site><update_url> </update_url><borders><set key="首页常用" tpl="borders/indexshadow.html" /><set key="其它边框" tpl="borders/tmp.html" /></borders><views></views><config></config></theme>
